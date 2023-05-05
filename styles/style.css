@@ -1,0 +1,210 @@
+/* Import Font dari Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+/* Media Query */
+@media screen and (max-width: 1200px) {
+  main {
+    flex-flow: column nowrap;
+  }
+
+  main aside {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  main aside {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  nav ul {
+    gap: 1rem !important;
+    justify-content: center;
+    padding-inline-start: 30px;
+  }
+
+  main aside {
+    align-self: center;
+  }
+}
+
+article h2 {
+  text-align: center;
+}
+
+article #pendidikan .card {
+  display: inline;
+  justify-content: center;
+}
+
+article .profil-diri .card {
+  align-items: center;
+}
+
+aside {
+  flex: 1;
+}
+
+body {
+  color: #bfdb38;
+  font-family: "Tilt Neon", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+main {
+  background-color: #bfdb38;
+  display: flex;
+  gap: 1rem;
+  padding: 20px;
+}
+
+footer {
+  color: #bfdb38;
+  padding: 15px;
+  background-color: #00425a;
+  text-align: center;
+}
+
+h2 {
+  color: #bfdb38;
+}
+
+h3 {
+  color: #bfdb38;
+}
+
+.navbar {
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: #00425a;
+  box-shadow: 0px 5px 8px 0.5px #242424;
+  padding: 6px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding-inline: rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #bfdb38;
+  font-size: 20px;
+  font-weight: 350;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+section {
+  margin: 0 auto;
+}
+
+th {
+  margin-left: 10px;
+}
+
+#content {
+  display: flex;
+  flex: 4;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#content section {
+  align-items: center;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.datadiri table {
+  justify-content: center;
+  padding-inline-start: 40px;
+}
+
+.gambar-artikel {
+  object-fit: cover;
+  object-position: center;
+  max-height: 300px;
+  width: 60%;
+}
+
+.profil-diri header {
+  text-align: center;
+}
+
+.profil-diri img {
+  width: 150px;
+}
+
+.profil-diri h3 {
+  text-align: center;
+}
+
+.card {
+  background-color: #00425a;
+  box-shadow: 5px 5px 8px 2px #242424;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.card section {
+  align-items: center;
+}
+
+main aside .media-sosial {
+  color: #bfdb38;
+}
+
+main aside .media-sosial ul {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  gap: 1.5rem;
+  justify-content: center;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+main aside.media-sosial li {
+  list-style-type: none;
+}
+
+main aside .media-sosial li a {
+  color: #bfdb38;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
